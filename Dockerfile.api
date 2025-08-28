@@ -1,0 +1,12 @@
+FROM python:3.13
+WORKDIR /app
+
+# Create model directory and copy model files
+RUN mkdir -p model
+COPY api/model/chem_balancer_encoder.pkl api/model/chem_balancer_ml_model.pkl api/model/extreme_ensembles.pkl api/model/use_log_transform.pkl ./model/
+COPY api/requirements.txt api/api.py api/.flaskenv  api/chemical_multipliers.py api/chemical_parameter_combinations.csv api/chemical_performance_analysis.csv api/dosage_range_analysis.csv api/feature_builder.py api/pool_chemistry_data.csv api/specialized_models.py api/test_feature_consistency.py api/train_ml_chem_balancer.py ./
+RUN pip install -r ./requirements.txt
+ENV FLASK_ENV production
+
+EXPOSE 5000
+CMD ["gunicorn", "-b", ":5000", "api:app"]

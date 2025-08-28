@@ -1,0 +1,13 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    image: pool-chem-balancer-api
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile.client
+    image: pool-chem-balancer-client
+    ports:
+      - '3000:80'

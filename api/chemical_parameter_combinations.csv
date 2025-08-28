@@ -1,0 +1,17 @@
+chem_param,abs_error_mean,abs_error_count,relative_error_mean,dosage_mean
+Muriatic Acid_alkalinity,147.967,6006,0.2494,758.7149
+Muriatic Acid_ph,61.9707,1870,0.1899,361.2353
+Calcium Chloride (77%)_calcium_hardness,61.7919,4523,0.3095,319.3139
+Sodium Bicarbonate_alkalinity,58.7038,4766,0.591,206.0318
+Cyanuric Acid_cyanuric_acid,37.8067,1871,0.8392,124.8871
+Sodium Hypochlorite 12%_chlorine,16.6303,3171,0.2966,72.4192
+Sodium Thiosulfate_chlorine,8.384,2268,0.2518,35.7026
+Sodium Carbonate_ph,7.261,3645,0.4893,20.0492
+Sodium Hydroxide_ph,7.243,1811,0.789,18.7478
+Lithium Hypochlorite 35%_chlorine,5.6751,3175,0.2904,22.9654
+Dichlor 62%_chlorine,4.9221,1825,0.4172,15.8205
+Calcium Hypochlorite 75%_chlorine,4.2214,3204,0.3025,16.7567
+Dichlor 56%_chlorine,3.6188,3176,0.3048,14.4086
+Calcium Hypochlorite 67%_chlorine,2.6592,3136,0.2975,11.3973
+Trichlor 90%_chlorine,1.9017,3154,0.2916,8.5687
+Chlorine Gas_chlorine,1.6934,3178,0.3003,7.3627
