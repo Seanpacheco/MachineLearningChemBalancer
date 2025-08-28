@@ -128,7 +128,7 @@ export const ChemLogFormUpdated = () => {
       }
 
       const response = await axios.post(
-        process.env.REACT_APP_API_URL || '/api/predict_dosage',
+        import.meta.env.VITE_REACT_APP_API_URL || '/api/predict_dosage',
         payload
       )
 
