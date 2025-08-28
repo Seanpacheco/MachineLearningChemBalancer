@@ -12,7 +12,6 @@ dist
 dist-ssr
 *.local
 build
-.flaskenv
 
 # Editor directories and files
 .vscode/*
